@@ -17,6 +17,7 @@
    <link rel="stylesheet" type="text/css" href="assets/css/white-bg.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
    <link rel="stylesheet" href="./assets/plugins/plugins.css">
+   <link rel="stylesheet" href="assets/css/kursor.min.css">
 </head>
 
 <body>
@@ -554,8 +555,8 @@
    <!-- /.mobile-nav__wrapper -->
    <a href="#" data-target="html" class="scroll-to-target scroll-to-top">
       <i class="fa fa-angle-up"></i>
-    </a>
-  
+   </a>
+
    <script src="assets/js/jquery-3.6.0.min.js"></script>
    <script src="assets/js/bootstrap.bundle.min.js"></script>
    <script src="assets/js/bxslider.min.js"></script>
@@ -563,6 +564,7 @@
    <script src="assets/js/jquery.fancybox.min.js"></script>
    <script src="assets/js/finlon.js"></script>
    <script src="./assets/plugins/plugins.js"></script>
+   <script src="assets/js/kursor.min.js"></script>
    <script>
       const showFormButton = document.getElementById("showFormButton");
       const formModal = new bootstrap.Modal(
@@ -643,7 +645,13 @@
 
    </script>
 
-
+   <script>
+      new kursor({
+         type: 1,
+         removeDefaultCusror: false,
+         color: "#efc102",
+      });
+   </script>
 </body>
 
 </html>

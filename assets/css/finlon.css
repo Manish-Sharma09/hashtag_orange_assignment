@@ -1825,6 +1825,7 @@ ul.main-menu__list li a {
 	transition-duration: 0.4s;
 	background-color: red;
 	color: white;
+	cursor: pointer;
 	box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3);
 }
 
